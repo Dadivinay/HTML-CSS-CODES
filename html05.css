@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+header{
+    height: 100px;
+    background-color: blue;
+}
+aside{
+    height: 300px;
+    width: 500px;
+    background-color: yellow;
+    color: black;
+    float:right;
+}
+footer{
+    background-color: blue;
+    height: 100px;
+    color: wheat;
+    text-align: center;
+
+}
+main{
+    height:500px;
+}

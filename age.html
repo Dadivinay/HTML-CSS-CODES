@@ -1,0 +1,20 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Changing Example</title>
+	<script>
+		function changeImage() {
+			var img = document.getElementById("myImg");
+			img.src = "newimage.jpg";
+			img.alt = "New Image";
+		}
+	</script>
+</head>
+<body>
+	<img id="myImg" src="oldimage.jpg" alt="Old Image">
+	<br>
+	<button onclick="changeImage()">Change Image</button>
+</body>
+</html> 
